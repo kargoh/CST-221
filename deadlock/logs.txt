@@ -1,0 +1,28 @@
+Printer manager process started | pid: 2345
+Printer process started | pid: 2346
+Process: Semaphore count is 1.
+Process: Getting semaphore.
+Process: Semaphore count is 0.
+Process: Print process starts.
+Printing.
+Printing.
+Print Parent: Started while print process is still running!
+Print Parent: Semaphore count of 0.
+Print Parent: print process is either hung or taking too long
+Checking for hung print process....
+Printing.
+Printing.
+Printing.
+Printing.
+Printing.
+Printing.
+Printing.
+Printing.
+Printing.
+Printing.
+System Call: Killing ProcessKilling process with ID of 2346
+Process killed successfully
+Print Parent: Semaphore count of 0.
+Semaphore has been retrieved.
+Print Parent: Semaphore count of 1. 
+Exiting Print Parent.
